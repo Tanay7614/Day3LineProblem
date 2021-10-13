@@ -13,6 +13,7 @@ public class LineComp {
 		  int y2=sc.nextInt();
 		  double length=Math.sqrt((Math.pow(x2-x1,2))+Math.pow(y2-y1,2));
 		  System.out.println("length="+length);
+		   
 		  System.out.println("enter x co-ordinate 1st points");
 		  int x3=sc.nextInt();
 		  System.out.println("enter x co-ordinate 2nd points");
@@ -24,16 +25,6 @@ public class LineComp {
 
 		  double length2=Math.sqrt((Math.pow(x4-x3,2))+Math.pow(y4-y3,2));
 		  System.out.println("length="+length2);
-		  if(length>length2)
-		  {
-		       System.out.println("line 1 is greater");
-		  }
-		  else if (length==length2){
-		       System.out.println("line1 and line2 is equal");
-		  }
-		 else{
-		       System.out.println("line 2 is greater");
-		}
-
+		 
 	}
 }
